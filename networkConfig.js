@@ -3,7 +3,9 @@ config = {
     // The network that this applies to
     network: 1, 
 
-    // Additional allowed peerIDs
+    // Additional allowed peerIDs.
+    // WARNING: Setting this to `[]` will BLOCK ALL PeerIDs, causing the nodes to disconnect from all peers. 
+    // To disable the allowList, set allowedPeers to `undefined` 
     allowedPeers: [
         "12D3KooWEWMXM8faJFXsVt6RUPBopBVvWUbnmETNWD9Z1Uijr7PH", // @adityapk00 - Hub2
     ],
