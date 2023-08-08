@@ -1,15 +1,15 @@
 ## Hubble Mainnet Network Config
 
-This repo contains the hubble mainnet's network config. It can be updated to:
+Configuration for Hubble instances to determine which peers to connect to and ignore. Instances update their configuration from the repo every hour on the top of the hour. 
 
-1. Add PeerIDs to the mainnet allow list
-2. Remove/Deny PeerIDs from the mainnet allow list
-3. Set a minimum App Version for Hubble
+### Adding Peers
 
-### Usage
+To add a new peer, make a pull request to this repo adding the peer's PeerID to the `allowedPeerIds` array in `networkConfig.js`. Setting `allowedPeerIds` to `undefined` will allow anyone to connect to the node, while setting it to `[]` will block everyone.
 
-Add PeerIDs to `networkConfig.js` as needed. Hubble will re-download the network config every hour.
-Note:
-  - Setting `allowedPeerIds` to `undefined` will remove the allowlist, allowing anyone to connect to the node
-  - Setting `allowedPeerIds` to `[]` will BLOCK ALL peers, allowing NO ONE to connect to the node
-  - PeerIds in `deniedPeerIds` will be denied, even if they are also contained in `allowedPeerIds`
+### Blocking Peers
+
+To block a peer, make a pull request to this repo adding the peer's PeerID to the `deniedPeerIds` array in `networkConfig.js`. PeerIds in `deniedPeerIds` will be denied, even if they are also contained in `allowedPeerIds`.
+
+### Version Killswitch
+
+To stop all nodes below a certain version in case of an emergency, set the `minAppVersion` in `networkConfig.js` to the minimum version you want to allow. This functionality will be deprecated after the mainnet contract launch. 
