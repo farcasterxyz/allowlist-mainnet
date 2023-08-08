@@ -75,6 +75,14 @@ config = {
         "12D3KooWCDxDVkirzdV6Ze8zgDq2i1X3tQLGgwTGRxwuYeHD6XDE", // @wrdwccz
         "12D3KooWHkYUwM3PeRqdYniuxAGXWhPYx6EzPhDY39J3cyNciQhE", // @naratech-eng
         "12D3KooWGU1ebBRwdTBrfb2jQniip7FsWfr22PJhZQwwAf4d8jgX", // Gvozdaryova43654.telegram
+        "12D3KooWED3UKfrwLBoi3vR3JoGpNs8HmRK3mMYmNC2A9fu2s2M7", // @web3dave
+        "12D3KooWDKAtgRaxkCtAs1FiEu1X2XYEUetnL7wMqHRCFAACHCRR", // @christopher / @unofficial Hub 1
+        "12D3KooWNyPgvhRmy1GV6s6krPmAZaJBo3AGkisgzrBivMPMZhPn", // @christopher / @unofficial Hub 2
+        "12D3KooWQeY5FbjepJwzPAzBZyfLpaKAijx447WmuCwkd3qwxpPP", // @wslyvh
+        "12D3KooWD2rboHTtYHSSHQ45g9eZjvJWtHWF5E8SzmAjB8qCFARK", // @fly
+        "12D3KooWPqgfTRAiQ1fzKGJ8G3V2vhwmPJBk1WGzB8XgGHKwyQZU", // @kayaomer
+        "12D3KooWKmseUorx4sY5rjbtrjCv8SkvGxC8NnjaU1aD2qsxKKio", // @fffilimonov
+        "12D3KooWJEGQp3k3Zv87shripoWRcQUAMZmyWR5HoWzdEE1aKrXF", // @franceschina
         /*
          * Add a new entry by adding your peerId and a comment with your farcaster username. To ensure a
          * fast merge, add your name randomly in the middle of the list, since adding at the end creates
