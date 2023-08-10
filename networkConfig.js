@@ -40,6 +40,7 @@ config = {
         "12D3KooWHK4EXZ33nVFLSCLRuFNUK74v72eZEcRKoHTPbX9Nove7", // @neynar Hub 1
         "12D3KooWB17LnSuiMuRAfGbsEky1JV2cdN2FnafdPtz2C5sdE991", // @neynar Hub 2
         "12D3KooWDWmbsoWZf3edTqJHbx3sZStbgoARKXVQ2zBDUL1BcVLw", // @neynar Hub 3
+        "12D3KooWC9b3iLvwHDHc9bqX8KUv5ickevCZ8LKLsrgrVkRqyE9W", // @bingo
         "12D3KooWDMXc4uVXr8zWGujaRuzhDnTBBHkTsJ58WimB8QU4cgos", // @nj
         "12D3KooWCZBZAirRXA2cecgud2zC7T5iN4hwr9nf7VAn9d8u9px2", // @rss3
         "12D3KooWRrjFGdSpCE3fZszNFj18TbQNFa28sjdq5KEybdYT29Ed", // @bradgao
