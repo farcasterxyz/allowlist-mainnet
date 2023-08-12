@@ -35,6 +35,7 @@ config = {
         "12D3KooWCx2XRmiMoQKFRALhbet21ezvgChbJ9PtVSFatYfUpUhX", // @withportals Dedicated Hub 1 (@lndnnft)
         "12D3KooWATFp6YuGXGZrCMcm9JWCsnZxeYSJZ7ExzENFn3S4MExG", // @withportals Dedicated Hub 2 (@lndnnft)
         "12D3KooWKxHRB3K9JSpRba9hPd2e1zzmdgPH35qcf7yKMjFBcBuE", // @withportals Dedicated Hub 3 (@lndnnft)
+        "12D3KooWELbuEmksKMfNsKQhf8q4LpjdvskcUK4wM5hjoi1KbUYz", // @craigbrentz.eth
         "12D3KooWPNDmUeNiGdCdoHp8iAf8Uay3c2C9n5QVygd3J1hfv65w", // @sanjay
         "12D3KooWFZwTP5bUZbQViTk79i2DZujHBBjPpAZyDwyrkPb79eAL", // @molo
         "12D3KooWHK4EXZ33nVFLSCLRuFNUK74v72eZEcRKoHTPbX9Nove7", // @neynar Hub 1
