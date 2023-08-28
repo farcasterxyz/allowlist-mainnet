@@ -1,12 +1,12 @@
 /** Network config that will be fetched by each Hub instance */
 config = {
     // The network that this applies to
-    network: 2, 
+    network: 1, 
 
     // Additional allowed peerIDs.
     // WARNING: Setting this to `[]` will BLOCK ALL PeerIDs, causing the nodes to disconnect from all peers. 
     // To disable the allowList, set allowedPeers to `undefined` 
-    allowedPeers: [], // Mainnet is permissionless
+    allowedPeers: [], // Allow none for tests
     
     // allowedPeers: [
     //     "12D3KooWEWMXM8faJFXsVt6RUPBopBVvWUbnmETNWD9Z1Uijr7PH", // @adityapk00 - Hub2
@@ -101,7 +101,4 @@ config = {
     // WARNING: If a Hub is below this version, it will not be able to start. 
     // A running hub below this version WILL SHUT DOWN!
     minAppVersion: "1.3.3",
-    storageRegistryAddress: "0xc5929a018b2dd54dc3150d9dcfd785082e56b639",
-    keyRegistryAddress: "0xc5fc2041aa4a93d0454ae7deea94890fdf8bb8b9",
-    idRegistryAddress: "0x8a197f47888491b4d205d5a05e1d2dc896c09f3c"
 };
