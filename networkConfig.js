@@ -1,12 +1,15 @@
 /** Network config that will be fetched by each Hub instance */
 config = {
     // The network that this applies to
-    network: 1, 
+    network: 3, 
 
     // Additional allowed peerIDs.
     // WARNING: Setting this to `[]` will BLOCK ALL PeerIDs, causing the nodes to disconnect from all peers. 
     // To disable the allowList, set allowedPeers to `undefined` 
-    allowedPeers: [], // Allow none for tests
+    allowedPeers: [
+        "12D3KooWHXChiTZ7uRaQYiJ57gJQZQo6rPqDKJmHZKHaMufe1V42", // Sanjay
+        "12D3KooWH5H1GvfBwVW9tqCS2UKpS39g2V9D2B5cMH9me7gR8K9Z", // Shane
+    ], // Allow none for tests
     
     // allowedPeers: [
     //     "12D3KooWEWMXM8faJFXsVt6RUPBopBVvWUbnmETNWD9Z1Uijr7PH", // @adityapk00 - Hub2
