@@ -101,4 +101,7 @@ config = {
     // WARNING: If a Hub is below this version, it will not be able to start. 
     // A running hub below this version WILL SHUT DOWN!
     minAppVersion: "1.3.3",
+    storageRegistryAddress: "0x21d7d32d0a4a741493a9e72eb0adb60c378f5a57",
+    keyRegistryAddress: "0x2ac10c266aee2cd5e77c20318499fd1bd26c54f5",
+    idRegistryAddress: "0x4e163a8cf8fe4a2c410831b7ee557dc596413106"
 };
