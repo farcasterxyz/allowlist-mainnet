@@ -95,7 +95,29 @@ config = {
     // ],
     
     // Deny these peers, even if they are in the allowList on the Hub. Deny list overrides allowlist
-    deniedPeers: [], 
+    deniedPeers: [],
+
+    // Allowlist these peers for app-specific peer scoring, even if their score would otherwise remove
+    allowlistedImmunePeers: [
+        // hoyt.farcaster.xyz
+        "12D3KooWRnSZUxjVJjbSHhVKpXtvibMarSfLSKDBeMpfVaNm1Joo",
+        // lamia.farcaster.xyz
+        "12D3KooWJECuSHn5edaorpufE9ceAoqR5zcAuD4ThoyDzVaz77GV",
+        // nemes.farcaster.xyz
+        "12D3KooWMQrf6unpGJfLBmTGy3eKTo4cGcXktWRbgMnfbZLXqBbn",
+        // keats.farcaster.xyz
+        "12D3KooWBPXFPS656B76tCmbbX6PB4vunmQcd8F38MZjkR88ofBx",
+        // @v
+        "12D3KooWFbnaXtbD5fwbMGq2JRjPaj7C6EpZRgaxC8jdtcX7FJbZ",
+        // @sanjay
+        "12D3KooWPNDmUeNiGdCdoHp8iAf8Uay3c2C9n5QVygd3J1hfv65w",
+        // @deodad
+        "12D3KooWNMAd358HmUe7HgkLYasGmZDfLM9iEEthE4VhqBFEr8dv",
+        // @neynar
+        "12D3KooWNsC2vzuHdKDfSM6xnMZwMjWK8zZCYHyLXuhRMeVRebGK",
+        // @neynar
+        "12D3KooWH9ojvuodLfc6bVyWArFaVAPgaKFiLFqH4Em48KQpSfwL",
+    ];
 
     // Minimum version of the Hub. 
     // WARNING: If a Hub is below this version, it will not be able to start. 
