@@ -117,7 +117,7 @@ config = {
         "12D3KooWNsC2vzuHdKDfSM6xnMZwMjWK8zZCYHyLXuhRMeVRebGK",
         // @neynar
         "12D3KooWH9ojvuodLfc6bVyWArFaVAPgaKFiLFqH4Em48KQpSfwL",
-    ];
+    ],
 
     // Minimum version of the Hub. 
     // WARNING: If a Hub is below this version, it will not be able to start. 
