@@ -87,6 +87,7 @@ config = {
     //     "12D3KooWPqgfTRAiQ1fzKGJ8G3V2vhwmPJBk1WGzB8XgGHKwyQZU", // @kayaomer
     //     "12D3KooWKmseUorx4sY5rjbtrjCv8SkvGxC8NnjaU1aD2qsxKKio", // @fffilimonov
     //     "12D3KooWJEGQp3k3Zv87shripoWRcQUAMZmyWR5HoWzdEE1aKrXF", // @franceschina
+    //     "12D3KooWF18f7CgQFJ7KtqgBxvoVv2QeLCEUfhxBSpTCCW2p2jjZ", // @f4r / @patxol
     //     /*
     //      * Add a new entry by adding your peerId and a comment with your farcaster username. To ensure a
     //      * fast merge, add your name randomly in the middle of the list, since adding at the end creates
