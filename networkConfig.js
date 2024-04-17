@@ -1,13 +1,13 @@
 /** Network config that will be fetched by each Hub instance */
 config = {
     // The network that this applies to
-    network: 1, 
+    network: 1,
 
     // Additional allowed peerIDs.
     // WARNING: Setting this to `[]` will BLOCK ALL PeerIDs, causing the nodes to disconnect from all peers. 
     // To disable the allowList, set allowedPeers to `undefined` 
     allowedPeers: undefined, // Mainnet is permissionless
-    
+
     // allowedPeers: [
     //     "12D3KooWEWMXM8faJFXsVt6RUPBopBVvWUbnmETNWD9Z1Uijr7PH", // @adityapk00 - Hub2
     //     "12D3KooWRnSZUxjVJjbSHhVKpXtvibMarSfLSKDBeMpfVaNm1Joo", // hoyt.farcaster.xyz
@@ -93,7 +93,7 @@ config = {
     //      * merge conflicts with everyone else updating this file
     //      */
     // ],
-    
+
     // Deny these peers, even if they are in the allowList on the Hub. Deny list overrides allowlist
     deniedPeers: [],
 
@@ -122,8 +122,9 @@ config = {
     // Minimum version of the Hub. 
     // WARNING: If a Hub is below this version, it will not be able to start. 
     // A running hub below this version WILL SHUT DOWN!
-    minAppVersion: "1.11.2",
+    minAppVersion: "1.11.6",
     keyRegistryV2Address: "0x00000000fc1237824fb747abde0ff18990e59b7e",
     idRegistryV2Address: "0x00000000fc6c5f01fc30151999387bb99a9f489b",
     solanaVerificationsEnabled: true,
+    bundleGossipPercent: 0.01,
 };
